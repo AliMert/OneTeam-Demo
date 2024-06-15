@@ -10,12 +10,11 @@ import class UIKit.UIImage
 protocol ViewModelProtocol {
     var delegate: ViewModelDelegate? { get set }
     var tableData: [[String]] { get }
-
     var tableDataUrlList: [String] { get }
     var imageData: [UIImage] { get }
     var imageUrlData: [String] { get }
-
     var filteredTableData: [String] { get set }
+    var shouldUseLocalData: Bool { get }
 
     func fetchListDataFromNetwork(numberOfPages: Int)
 }

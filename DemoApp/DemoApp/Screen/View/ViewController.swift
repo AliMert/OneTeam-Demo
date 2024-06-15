@@ -20,12 +20,6 @@ final class ViewController: UIViewController {
     private var viewModel: ViewModelProtocol!
     private var isSearch = false
 
-    // MARK: DEV_NOTES
-    /// if you want to load data from local set to `true`
-    /// if you want to load data from network set to `false`
-    ///
-    private var shouldUseLocalData = true
-
     // MARK: - Views
 
     private let tableView: UITableView = {
@@ -59,7 +53,7 @@ final class ViewController: UIViewController {
         /// use setupView(images: [UIImage]) for images that are located in resources
         /// use setupView(imageUrls: [String]) for downloading and then showing the images. While the image is downloading a placeholder image will be shown in the mean time
         ///
-        shouldUseLocalData
+        viewModel.shouldUseLocalData
         ? sliderView.setupView(images: viewModel.imageData)
         : sliderView.setupView(imageUrls: viewModel.imageUrlData)
 
@@ -73,7 +67,7 @@ final class ViewController: UIViewController {
         /// if you want to fetch the data from network please set  `shouldUseLocalData` to false or change the code
         /// `fetchListDataFromNetwork(numberOfPages:)` method  will try to fetch the data from the `viewModel.tableDataUrlList`
         ///
-        if !shouldUseLocalData {
+        if !viewModel.shouldUseLocalData {
             viewModel.fetchListDataFromNetwork(numberOfPages: sliderView.numberOfPages)
         }
     }

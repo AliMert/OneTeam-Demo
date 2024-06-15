@@ -12,6 +12,12 @@ final class ViewModel: ViewModelProtocol {
 
     // MARK: - Properties
 
+    // MARK: DEV_NOTES
+    /// if you want to load data from local set to `true`
+    /// if you want to load data from network set to `false`
+    ///
+    private(set) var shouldUseLocalData = true
+
     private(set) var tableData = [
         ["Red", "Blue", "Green", "Yellow", "Orange", "Purple", "Pink", "Brown", "Black", "White", "Gray", "Cyan", "Magenta", "Lime", "Indigo", "Violet", "Turquoise", "Teal", "Navy", "Coral", "Maroon", "Olive", "Silver", "Gold", "Beige"],
         ["Argentina", "Australia", "Bahrain", "Belgium", "Brazil", "Canada", "China", "Denmark", "Egypt", "Finland", "France", "Germany", "India", "Israel", "Italy", "Japan", "Mexico", "Netherlands", "New Zealand", "Nigeria", "Norway", "Russia", "Saudi Arabia", "South Africa", "South Korea", "Spain", "Sweden", "Turkey", "United Arab Emirates", "United Kingdom", "United States"],
