@@ -13,7 +13,6 @@
 
 # Here is the demo video:
 
-https://github.com/AliMert/OneTeam-Demo/assets/37440706/af305e17-b167-4f54-9ac3-dae749ebef9f
-
+https://github.com/AliMert/OneTeam-Demo/assets/37440706/e6f2f535-51d2-4fff-bf5b-5b702e242a83
 
 Ali Mert Ozhayta
