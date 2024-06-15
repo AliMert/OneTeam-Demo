@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0643790A-18DA-43A1-A278-5E2374B5F460"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88EFCAD5-A74A-4BDC-9758-5338205D6E49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemoApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "handleViewModelOutput(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "88EFCAD5-A74A-4BDC-9758-5338205D6E49 - 8edcde771ca03b48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DemoApp.ViewController.handleViewModelOutput(DemoApp.ViewModelOutput) -&gt; ()"
+                  moduleName = "DemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AliMert/Documents/Git%20Repositories/Swift/DemoApp/DemoApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "88EFCAD5-A74A-4BDC-9758-5338205D6E49 - 8edcde771ca03b48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DemoApp.ViewController.handleViewModelOutput(DemoApp.ViewModelOutput) -&gt; ()"
+                  moduleName = "DemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AliMert/Documents/Git%20Repositories/Swift/DemoApp/DemoApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "88EFCAD5-A74A-4BDC-9758-5338205D6E49 - 8edcde771ca03b48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DemoApp.ViewController.handleViewModelOutput(DemoApp.ViewModelOutput) -&gt; ()"
+                  moduleName = "DemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AliMert/Documents/Git%20Repositories/Swift/DemoApp/DemoApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "88EFCAD5-A74A-4BDC-9758-5338205D6E49 - 50c1c3836d13b66a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in DemoApp.ViewController.handleViewModelOutput(DemoApp.ViewModelOutput) -&gt; ()"
+                  moduleName = "DemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AliMert/Documents/Git%20Repositories/Swift/DemoApp/DemoApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
