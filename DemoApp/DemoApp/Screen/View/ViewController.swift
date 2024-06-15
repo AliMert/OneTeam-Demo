@@ -81,6 +81,8 @@ final class ViewController: UIViewController {
     // MARK: - UI
 
     private func preapareUI() {
+        view.backgroundColor = .systemBackground
+
         view.fitToSafeArea(subview: tableView)
         tableView.tableHeaderView = sliderView
 
